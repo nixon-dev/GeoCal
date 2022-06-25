@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width:900px)">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>GeoCal</title>
+</head>
+<body>
+    <header class="header_main">
+        <img src="./asset/GeoCal.png" alt="logo">
+    </header>
+
+    <h1>Welcome to the geometric figure calculator</h1>
+
+    <section class="container_main">
+       
+        
+        <!--Html de square-->
+        <div class="cuadrado">
+            <h2>Square</h2>
+            <form action="" class="content__cuadrado">
+                <label for="inputCuadrado" class="cuadrado_texto">
+                    Write down how long the sides of the square are and then select an option to calculate
+                </label>
+                <br>
+                 
+             <div class="cuadrado__container_input">
+                <div class="input__cuadrado">
+                <input class="cuadrado__input" type="number" name="ladoCuadrado" id="inputCuadrado">
+                <span class="text_cm">cm</span>
+                </div>
+            </div>
+
+                <div class="button__container">
+                <button class="cuadrado__button_perimetro" type="button" onclick="calcularPerimetroCuadrado()">Perimeter</button>
+                <button class="cuadrado__button_area" type="button" onclick="calcularAreaCuadrado()">Area</button>
+                </div>
+                <span class="text_result">Result</span>
+                <div class="result__container">
+                    <p class="calcular_resultado" id="resultsquare"></p>
+                </div>
+
+            </form>
+        </div>
+
+        <!--Html de circle-->
+        <div class="circle">
+            <h2>Circle</h2>
+            <form action="" class="content__circle">
+                <label for="inputCircle" class="circle_texto">
+                    Write the radius of your circle to obtain its area, circumference and diameter
+                </label>
+                <br>
+                 
+             <div class="circle__container_input">
+                <div class="input__circle">
+                <input class="circle__input" type="number" name="radioCuadrado" id="inputCircle">
+                <span class="text_cm">cm</span>
+                </div>
+            </div>
+
+                <div class="button__container">
+                <button class="circle__button_area" type="button" onclick="calcularAreaCircle()">Area</button>
+                <button class="circle__button_circunferencia" type="button" onclick="calcularCircunferenciaCircle()">Circumference</button>
+                </div>
+                <button class="circle__button_diametro" type="button" onclick="calcularDiametroCircle()">Diameter</button>
+
+                <span class="text_result">Result</span>
+                <div class="result__container">
+                    <p class="calcular_resultado" id="resultCircle"></p>
+                </div>
+
+            </form>
+        </div>
+
+        <!--Html de triangle-->
+
+        <div class="triangulo">
+            <h2>Triangle</h2>
+            <form action="" class="content__triangle">
+                <label for="text_paragraf" class="text__paragrafh_triangle">
+                    Write down the dimensions of your triangle and then choose the perimeter or area option to calculate.
+                </label>
+                <br>
+                <br>
+               <label for="inputTriangle_lado1" class="triangle_texto">
+                    How long is one side?
+               </label>
+                <br>
+               <div class="triangle__container_input">
+                   <div class="input__triangle_container">
+                      <input class="triangle__input" type="number" name="ladoTriangle_1" id="inputTriangle_lado1">
+                      <span class="text_cm">cm</span>
+                   </div>
+               </div>
+
+               <label for="inputTriangle_lado2" class="triangle_texto">
+                How long the other side?
+           </label>
+            <br>
+           <div class="triangle__container_input">
+               <div class="input__triangle_container">
+                  <input class="triangle__input" type="number" name="ladoTriangle_2" id="inputTriangle_lado2">
+                  <span class="text_cm">cm</span>
+               </div>
+           </div>
+
+           <label for="inputTriangle_base" class="triangle_texto">
+            How long the base?
+       </label>
+        <br>
+       <div class="triangle__container_input">
+           <div class="input__triangle_container">
+              <input class="triangle__input" type="number" name="baseTriangle" id="inputBase">
+              <span class="text_cm">cm</span>
+           </div>
+       </div>
+
+
+        <div class="button__container">
+                <button class="triangle__button_perimetro" type="button" onclick="calcularPerimetroTriangle()">Perimeter</button>
+                <button class="triangle__button_area" type="button" onclick="calcularAreaTriangle()">Area</button>
+                </div>
+                <span class="text_result">Result</span>
+            <div class="result__container_triangle">
+                    <p class="calcular_triangle" id="resultTriangle"></p>
+            </div>
+
+            </form>
+        </div>
+
+
+    </section>
+    <script src="./figuras.js"></script>
+</body>
+</html>

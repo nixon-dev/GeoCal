@@ -1,0 +1,388 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+        font-size: 62.5%;
+        font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+
+.header_main{
+    margin-top: 20px;
+    width: 100%;
+    height: 80px;
+}
+
+.header_main img{
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+}
+
+.container_main{
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+}
+
+
+/*Código css del cuadrado*/
+
+.container_main .cuadrado{
+    border-radius: 10px;
+    background-color: #5E17EB;
+    width: 300px;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+}
+
+.cuadrado h2{
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.content__cuadrado .cuadrado_texto{
+    font-size: 1.5rem;
+    
+}
+
+.cuadrado__container_input{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cuadrado__input{
+    margin-top: 20px;
+    width: 80%;
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    text-align: center;
+}
+
+.cuadrado__input:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #00000047;
+}
+
+.text_cm{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.button__container{
+    margin: 15px 15px;
+    display: inline-block;
+}
+
+.cuadrado__button_perimetro{
+    background-color: #d9d9d9;
+    width: 100px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 8px;
+    outline: none;
+    border: none;
+}
+
+.cuadrado__button_perimetro:hover{
+    background-color: white;
+    transition-duration: 3ms;
+    cursor: pointer;
+}
+
+.cuadrado__button_area:hover{
+    background-color: white;
+    transition-duration: 3ms;
+    cursor: pointer;
+}
+
+.cuadrado__button_area{
+    background-color: #d9d9d9;
+    width: 100px;
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+}
+
+.text_result{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.result__container{
+    margin-top: 15px;
+    border-radius: 8px;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #00000047;
+}
+
+.calcular_resultado{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.5rem;
+}
+
+/*Fin del código css del cuadrado*/
+
+/*Código css del triangle*/
+
+.container_main .triangulo{
+    border-radius: 10px;
+    background-color: #FFC700;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.triangulo h2{
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.content__triangle .triangle_texto{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.content__triangle .text__paragrafh_triangle{
+    font-size: 1.5rem;
+}
+
+.triangle__container_input{
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.triangle__input{
+    margin-top: 10px;
+    width: 80%;
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    text-align: center;
+}
+
+.triangle__input:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #00000047;
+}
+
+.text_cm{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.button__container{
+    margin: 15px 15px;
+    display: inline-block;
+}
+
+.triangle__button_perimetro{
+    background-color: #d9d9d9;
+    width: 100px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 8px;
+    outline: none;
+    border: none;
+}
+
+.triangle__button_perimetro:hover{
+    background-color: white;
+    transition-duration: 3ms;
+    cursor: pointer;
+}
+
+.triangle__button_area:hover{
+    background-color: white;
+    transition-duration: 3ms;
+    cursor: pointer;
+}
+
+.triangle__button_area{
+    background-color: #d9d9d9;
+    width: 100px;
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+}
+
+.text_result{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.result__container_triangle{
+    margin-top: 15px;
+    border-radius: 8px;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #00000047;
+}
+
+.calcular_triangle{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.5rem;
+}
+
+
+/*Fin del código css del cuadrado*/
+
+/*Inicio de código css del circulo*/
+
+/*Código css del cuadrado*/
+
+.container_main .circle{
+    border-radius: 10px;
+    background-color: #FF1616;
+    width: 300px;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.circle h2{
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.content__circle .circle_texto{
+    font-size: 1.5rem;
+}
+
+.circle__container_input{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.circle__input{
+    margin-top: 20px;
+    width: 80%;
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    text-align: center;
+}
+
+.circle__input:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #00000047;
+}
+
+.text_cm{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.button__container{
+    margin: 15px 15px;
+    display: inline-block;
+}
+
+.circle__button_area{
+    background-color: #d9d9d9;
+    width: 100px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 8px;
+    outline: none;
+    border: none;
+}
+
+.circle__button_area:hover{
+    background-color: white;
+    transition-duration: 3ms;
+    cursor: pointer;
+}
+
+.circle__button_circunferencia{
+    background-color: #d9d9d9;
+    width: 100px;
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+}
+
+.circle__button_circunferencia:hover{
+    background-color: white;
+    transition-duration: 3ms;
+    cursor: pointer;
+}
+
+.circle__button_diametro{
+    background-color: #d9d9d9;
+    width: 215px;
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.circle__button_diametro:hover{
+    background-color: white;
+    transition-duration: 3ms;
+    cursor: pointer;
+}
+
+.text_result{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.result__container{
+    margin-top: 15px;
+    border-radius: 8px;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #00000047;
+}
+
+.calcular_resultado{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.5rem;
+}
+
+/*Fin de código css del circulo*/
